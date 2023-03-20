@@ -235,11 +235,12 @@ header{
 }
 
 
-.parent{
+.parent1{
     display:flex;
     margin-top: 2rem;
     gap: 1rem;
     margin-bottom: 3rem;
+    margin-left: 9rem;
 }
 
 .exp-parent{
@@ -294,5 +295,61 @@ header{
     background-color: rgb(112, 111, 111);
 }
 
+@media screen and (max-width:820px) {
 
-
+    .details h1{
+         padding-left: -5%; 
+        /* text-align:center;  */
+        font-size: 40px;
+    }
+    .details p{
+        padding-left: -5%;
+        font-size: 20px;
+    }
+    .parent{
+        padding-left: 37%;
+    }
+    .image{
+        padding-right: 15%;
+        padding-left: 2%;
+    }
+    .user-details{
+        display: block;
+    }
+    .parent1 {
+         display: block;
+         margin-right: 25%;
+    }
+    .exp-parent{
+        margin-bottom: 15px;
+    }
+    .proj-parent{
+        margin-bottom: 15px;
+    }
+     .client-parent{
+        margin-bottom: 15px;
+     }
+     .about-details{
+        display: block;
+     }
+     .fimg{
+        padding-left: 13%;
+     }
+     .about h1{
+        padding-left: 4%; 
+        /* text-align:center;  */
+        font-size: 40px;
+        margin-top: -5%;
+     }
+     .about p{
+        font-size: 20px;
+        padding-left: 4%; 
+     }
+     .fimg{
+        padding-right: 15%;
+        padding-left: 2%;  
+     }
+     
+    }
+    
+  
