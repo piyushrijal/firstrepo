@@ -1,0 +1,694 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smotthong: antialiased;
+}
+body {
+  background-color: white;
+}
+/*css for nav open */
+
+.whole {
+  padding: 0 15px;
+}
+
+header {
+  background-color: rgb(187, 183, 183);
+  height: 9%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.nav {
+  font-size: 25px;
+}
+.container {
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.nav a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: rgb(10, 5, 5);
+}
+.nav a:hover {
+  color: rgb(154, 154, 196);
+}
+.contact-btn {
+  background: rgb(148, 151, 150);
+  border-radius: 80px;
+  font-weight: bold;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 15px;
+  color:black;
+  text-decoration: none;
+}
+.contact-btn:hover {
+  background-color: rgb(197, 207, 198);
+}
+
+/*css for nav close*/
+
+/** css for user details open*/
+.user-details {
+  /* height: 50vh; */
+  display: flex;
+  justify-content: space-around;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+.details-title {
+  font-size: 60px;
+  color: black;
+  padding-bottom: 15px;
+  margin-top: 13%;
+}
+.details p {
+  line-height: 25px;
+  text-align: justify;
+  font-size: 25px;
+  color: black;
+  margin: 5px;
+}
+.image img {
+  border: 5px solid #555;
+}
+
+/*css for user details closed */
+
+/*  css for parent1 open*/
+
+.parent1 {
+  display: flex;
+  margin-top: 5.5rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0.4rem;
+}
+
+.exp-parent {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(187, 183, 183);
+}
+.year {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.exp {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.proj-parent {
+  text-align: center;
+  padding: 1rem;
+  background-color:rgb(187, 183, 183);
+}
+.num {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.num-det {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.client-parent {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(187, 183, 183);
+}
+.client-num {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.happy {
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/*css for parent1closed*/
+
+/*css for about details open*/
+.about-details {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 36px;
+  margin-bottom: 4rem;
+  /* height:50vh; */
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.about p {
+  color: black;
+  line-height: 25px;
+  text-align: justify;
+  font-size: 25px;
+  padding-right: 28px;
+  line-height: 25px;
+}
+.about h1 {
+  font-size: 40px;
+  color: black;
+  margin-top: 5rem;
+  padding-bottom: 1.5rem;
+}
+.img2 img {
+  margin-left: 45px;
+  border: 5px solid #555;
+}
+
+/*css  for about details closed*/
+
+/* css for main started*/
+
+.main {
+  display: flex;
+  margin: 15rem 5.5rem;
+  text-align: justify;
+  gap: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.do h1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.do p {
+  font-size: 25px;
+  text-align: justify;
+  line-height: 25px;
+}
+.box p {
+  font-size: 25px;
+  text-align: justify;
+  line-height: 25px;
+}
+.box div {
+  font-size: 20px;
+  font-weight: 450;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  max-width: 500rem;
+  background-color: rgb(187, 183, 183);
+  border-radius: 5px;
+  padding-left: 2rem;
+}
+.do {
+  margin-top: 12rem;
+}
+
+/*css for main closed*/
+
+/*css for footer started*/
+
+.footer {
+  text-align: center;
+  background-color:rgb(187, 183, 183);
+  padding:1.7rem;
+}
+.links li {
+  color: rgb(8, 9, 9);
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 20px;
+}
+.footer p {
+  margin-bottom: 1rem;
+}
+/*css for footer closed*/
+
+/*working for responsive*/
+
+@media screen and (max-width: 820px) {
+  .header {
+    height: 7%;
+  }
+  .details-title {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    /* pad */
+  }
+  .details p {
+    margin-bottom: 1.4rem;
+  }
+
+  .user-details {
+    /* height: 50vh; */
+    display: block;
+    justify-content: space-around;
+    /* margin-left: 70px;
+        margin-right: 70px; */
+    margin-bottom: 1px;
+  }
+  .image img {
+    margin-left: 5px;
+    width: 50%;
+    height: 25%;
+  }
+
+  .parent1 {
+    /* display:flex; */
+    margin-top: 1rem;
+    /* gap: 1rem;*/
+    margin-bottom: 1px;
+    margin-left: 4.8rem;
+  }
+
+  .about-details {
+    display: block;
+    /* justify-content: space-around;
+        margin:70px 36px;
+        margin-bottom:4rem;
+        height:50vh;
+        gap:5rem; */
+    padding-top: 1px;
+  }
+
+  .img2 img {
+    margin-left: 3rem;
+    width: 45%;
+    height: 25%;
+  }
+
+  .about p {
+    /* color: black;
+    line-height: 25px;
+    text-align: justify;
+    font-size:25px;
+    padding-right: 28px;
+    line-height: 25px; */
+    margin-left: 3rem;
+  }
+  .about h1 {
+    /* font-size:40px;
+    color:black;*/
+    margin-top: 2rem;
+    /*padding-bottom: 1.5rem; */
+    margin-left: 3rem;
+  }
+  .main {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+  }
+  .do {
+    margin-top: 5px;
+  }
+}
+@media screen and (min-width: 821px) and (max-width: 1100px){
+  .user-details {
+    /* height: 50vh; */
+    display: block;
+    justify-content: space-around;
+    /* margin-left: 70px;
+        margin-right: 70px; */
+    margin-bottom: 1px;
+  }
+  .details-title {
+    margin-top: 1.5rem;
+  }
+  .image img {
+    width: 35%;
+    height: 30%;
+  }
+  .parent1 {
+    margin: 1rem 1rem;
+    margin-left: 4.4rem;
+  }
+  .about-details {
+    display: block;
+    /* justify-content: space-around;
+        margin:70px 36px;
+        margin-bottom:4rem;
+        height:50vh;
+        gap:5rem; */
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .img2 img {
+    width: 35%;
+    height: 30%;
+  }
+  .about h1 {
+    /* font-size:40px;
+    color:black;*/
+    margin-top: 2rem;
+    /*padding-bottom: 1.5rem; */
+    margin-left: 3rem;
+  }
+  .about p {
+    /* color: black;
+    line-height: 25px;
+    text-align: justify;
+    font-size:25px;
+    padding-right: 28px;
+    line-height: 25px; */
+    margin-left: 3rem;
+  }
+  .main {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    margin-left: 4.8rem;
+  }
+  .do {
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 1144px) and (max-width: 1234px){
+  .user-details {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1px;
+  }
+  .details-title {
+    font-size: 50px;
+  }
+  .details p {
+    font-size: 20px;
+  }
+  .details {
+    margin-top: 5rem;
+  }
+  .parent1 {
+    margin: 2rem 4.5rem;
+  }
+  .about-details {
+    display: flex;
+    /* justify-content: space-around;
+    margin:70px 36px;
+    margin-bottom:4rem;
+    height:50vh;
+    gap:5rem; */
+    margin-top: 3rem;
+    margin-left: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .about {
+    margin-top: 1px;
+  }
+  .about h1 {
+    font-size: 35px;
+    margin-top: 3rem;
+  }
+  .about p {
+    font-size: 20;
+  }
+}
+@media screen and (min-width: 1101px) and (max-width: 1143px){
+  .details-title {
+    font-size: 45px;
+  }
+  .details p {
+    font-size: 20px;
+  }
+  .details {
+    margin-top: 3rem;
+  }
+
+  .about h1 {
+    font-size: 32px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  .parent1 {
+    margin-top: 3.3rem;
+  }
+}
+@media screen and (min-width: 1144px) and (max-width: 1234px){
+  .details {
+    margin-left: 1px;
+  }
+  .parent1 {
+    margin-left: 1px;
+  }
+}
+@media screen and (min-width: 1235px) and (max-width: 1250px){
+  .parent1 {
+    margin-top: 4.2rem;
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 1100px) {
+  .header {
+    height: 7%;
+  }
+  .parent1 {
+    margin-left: 0.1rem;
+  }
+  .image img {
+    margin-left: 0.1rem;
+  }
+
+  .user-details {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .details-title {
+    margin-top: 0.3rem;
+  }
+  .about p {
+    margin-right: 2rem;
+  }
+  .img2 img{
+    height:245px;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 819px) {
+.details-title{
+    font-size:35px;
+    margin-bottom: 0.1rem;
+    margin-left: 0.5rem;
+}
+.details p{
+    font-size: 18px;
+    margin-left: 0.7rem;
+}
+.parent1{
+     margin-left: 0.7rem;
+}
+.user-details {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .image img{
+    margin-left: 0.5rem;
+  }
+  .about h1{
+    font-size: 30px;
+  }
+  .about p{
+    font-size: 18px;
+  }
+  .about-details{
+    margin-bottom: 2rem;
+  }
+  .do p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+    .details-title{
+        font-size:30px;
+         margin-left:0.2rem;
+    }
+    .details p{
+        font-size: 18px;
+    }
+    .parent1{
+        margin-left: 0.5rem;
+        padding-right:0.5rem;
+        display:block;
+   }
+   .exp-parent{
+    margin-bottom: 1rem;
+   }
+   .proj-parent{
+    margin-bottom: 1rem;
+   }
+   .user-details {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .image img{
+    margin-left: 0.1rem;
+  }
+
+  .about h1{
+    font-size: 25px;
+  }
+  .about p{
+    font-size: 18px;
+  }
+.do h1{
+    font-size: 30px;
+}
+.do p{
+    font-size: 18px;
+}
+.about-details{
+    margin-bottom: 2rem;
+}
+.nav {
+    font-size: 14px;
+  }
+.nav a{
+    margin-right: 1rem;
+}
+.box p{
+    font-size: 15px;
+}
+.img2 img{
+    height: 127px
+}
+}
+@media screen and (min-width: 550px) and (max-width: 570px) {
+    .nav {
+        font-size: 20px;
+      }
+    .nav a{
+        margin-right: 1rem;
+    }   
+    .img2 img{
+ height:209px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 381px) {
+    .user-details {
+        display:flex;
+        flex-direction: column-reverse;
+      }
+      .details-title{
+        font-size:25px;
+         margin-left:0.2rem;
+    }
+    .details p{
+        font-size: 15px;
+    }
+    .parent1{
+        margin-left: 0.5rem;
+        padding-right:0.5rem;
+   }
+   .nav {
+    font-size: 12px;
+  }
+  .nav a{
+    margin-right: 1rem;
+}
+.about h1{
+    font-size: 20px;
+  }
+  .about p{
+    font-size: 15px;
+  }
+  .about-details{
+    margin-bottom:1rem;
+  }
+ .do h1{
+    font-size: 20px;
+ }
+ .do p{
+    font-size: 15px;
+
+ }
+ .box p{
+    font-size: 15px;
+}
+.parent1{
+    margin-left: 0.5rem;
+    padding-right:0.5rem;
+    display:block;
+}
+.exp-parent{
+margin-bottom: 1rem;
+}
+.proj-parent{
+margin-bottom: 1rem;
+}
+.img2 img{
+    height:119px;
+}
+
+}
+@media screen and (min-width: 381px) and (max-width: 400px) {
+    .user-details {
+        display:flex;
+        flex-direction: column-reverse;
+      }
+      .details-title{
+        font-size:25px;
+         margin-left:0.2rem;
+    }
+    .details p{
+        font-size: 15px;
+    }
+    .parent1{
+        margin-left: 0.5rem;
+        padding-right:0.5rem;
+   }
+   .nav {
+    font-size: 12px;
+  }
+  .nav a{
+    margin-right: 1rem;
+}
+.about h1{
+    font-size: 20px;
+  }
+  .about p{
+    font-size: 15px;
+  }
+  .about-details{
+    margin-bottom:1rem;
+  }
+ .do h1{
+    font-size: 20px;
+ }
+ .do p{
+    font-size: 15px;
+
+ }
+ .box p{
+    font-size: 15px;
+}
+.img2 img{
+    height: 127px
+}
+.parent1{
+    margin-left: 0.5rem;
+    padding-right:0.5rem;
+    display:block;
+}
+.exp-parent{
+margin-bottom: 1rem;
+}
+.proj-parent{
+margin-bottom: 1rem;
+}
+
+}
