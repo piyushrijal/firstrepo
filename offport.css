@@ -20,25 +20,28 @@ header {
 }
 .nav {
   font-size: 25px;
+  /* padding-left: 35rem;
+  /* padding-right: 34rem; 
 }
 .container {
-  max-width: 1152px;
+  /* max-width: 1152px; */
   padding: 0 15px;
-  margin: 0 auto;
+  margin-left: 2rem;
 }
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+ justify-content: space-between;
   padding: 1.5rem 0;
 }
 .logo {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-left:3rem;
 }
 .nav a {
-  margin-right: 8rem;
+  margin-right: 1rem;
   text-decoration: none;
   color: rgb(10, 5, 5);
 }
@@ -47,16 +50,22 @@ header {
 }
 .contact-btn {
   background: rgb(148, 151, 150);
-  border-radius: 80px;
+  border-radius: 40px;
   font-weight: bold;
   padding: 10px 10px;
   cursor: pointer;
   font-size: 15px;
   color:black;
   text-decoration: none;
+  text-align: center;
 }
 .contact-btn:hover {
   background-color: rgb(197, 207, 198);
+}
+.nav-parent{
+  display: flex;
+  margin-right:3.2rem;
+  align-items: center;
 }
 
 /*css for nav close*/
@@ -575,7 +584,7 @@ header {
       }
     .nav a{
         margin-right: 1rem;
-    }   
+    }
     .img2 img{
  height:209px;
     }
@@ -636,6 +645,9 @@ margin-bottom: 1rem;
 .img2 img{
     height:119px;
 }
+.nav{
+  font-size:8px
+}
 
 }
 @media screen and (min-width: 381px) and (max-width: 400px) {
@@ -693,5 +705,171 @@ margin-bottom: 1rem;
 .proj-parent{
 margin-bottom: 1rem;
 }
+}
+@media screen and (min-width: 570px) and (max-width: 600px) {
+   .nav{
+    font-size: 17px;
+   }
+}
 
+@media screen and (min-width: 401px) and (max-width: 410px) {
+  .nav{
+   font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 381px) and (max-width: 396px) {
+  .nav{
+   font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 510px) and (max-width: 604px) {
+  .nav{
+   font-size: 20px;
+  }
+  .contact-btn{
+    padding: 1px 3px;
+  }
+}
+
+@media screen and (min-width: 492px) and (max-width: 533px) {
+  .nav{
+   font-size: 15px;
+  }
+  .contact-btn{
+    padding: 7px 3px;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 491px) {
+  .nav a{
+   font-size: 13px;
+  }
+  .nav a{ 
+    margin-right: 0.1rem;
+  }
+  .contact-btn{
+    padding: 2px 1px;
+  }
+  .nav-parent{
+    margin-right: 4rem;
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+   }
+
+}
+
+
+@media screen and (min-width: 388px) and (max-width: 450px) {
+  .nav a{
+   font-size: 12px;
+  }
+  .nav a{ 
+    margin-right: 0.1rem;
+  }
+  .contact-btn{
+    padding: 1px 1px;
+    font-size: 10px;
+  }
+  .nav-parent{
+    margin-right: 4rem;
+  }
+  .nav{
+    margin-left: 1rem;
+  }
+  .logo{
+    width: 30px;
+    height: 30px;
+   }
+
+
+}
+
+@media screen and (min-width:375px) and (max-width:387px){
+  .nav a{
+    font-size: 12px;
+   }
+   .nav a{ 
+     margin-right: 0.1rem;
+   }
+   .contact-btn{
+     padding: 0.4px 0.4px;
+     font-size: 10px;
+   }
+   .nav-parent{
+     margin-right: 4rem;
+   }
+   .nav{
+     margin-left: 0.4rem;
+   }
+   .logo{
+    width: 30px;
+    height: 30px;
+   }
+}
+@media screen and (min-width:360px) and (max-width:374px){
+  .nav a{
+    font-size: 10px;
+   }
+   .nav-parent{
+    text-align: center;
+   }
+   .nav a{ 
+     margin-right: 0.1rem;
+   }
+   .contact-btn{
+     padding: 0.4px 0.4px;
+     font-size: 10px;
+   }
+   .nav-parent{
+     margin-right: 4rem;
+   }
+   .nav{
+     margin-left: 0.4rem;
+   }
+   .logo{
+    width: 30px;
+    height: 30px;
+   }
+   .details-title{
+    font-size: 20px;
+   }
+   .details p{
+    font-size: 12px;
+   }
+   .user-details {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .parent1{
+    margin-left: 0.5rem;
+    padding-right:0.5rem;
+    display:block;
+}
+.exp-parent{
+  margin-bottom: 1rem;
+ }
+ .proj-parent{
+  margin-bottom: 1rem;
+ }
+ .about h1{
+  font-size: 20px;
+ }
+ .about p{
+  font-size: 12px;
+ }
+ .do h1{
+  font-size: 20px;
+ }
+ .do p{
+  font-size: 12px;
+ }
+ .about-details{
+  margin-bottom: 1rem;
+ }
+ .box p{
+  font-size: 12px;
+ }
 }
